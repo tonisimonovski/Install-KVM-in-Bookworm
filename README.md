@@ -3,14 +3,14 @@ Script for auto install on KVM + QEMU in Debian Bookworm
 
 # Installing in terminal commands:
 
-    git clone https://github.com/tonisimonovski/install-kvm-in-Bookworm/ ~/Downloads/install-kvm
+    git clone https://github.com/tonisimonovski/Install-KVM-in-Bookworm/ ~/Downloads/kvm
     
-    cd ~/Downloads/signal
+    cd ~/Downloads/kvm
 
-    chmod +x install_signal_in_Bookworm.sh
+    chmod +x install_kvm_in_Bookworm.sh
 
-    ./install_signal_in_Bookworm.sh
+    ./install_kvm_in_Bookworm.sh
 
-    sudo rm -r ~/Downloads/signal
+    sudo rm -r ~/Downloads/kvm
 
     cd ~/
