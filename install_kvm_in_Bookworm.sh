@@ -21,12 +21,9 @@ sudo virsh -c qemu:///system net-start default
 # 
 
 
- ########################################################
+########################################################
  # End of script
- # Dont forget to
- # chmod +x ./<name_of_script>.sh
- # 
-
+ 
  sudo apt autoremove
 
  printf "\e[1;32mYou are finished with install! Thanks you.\e[0m\n"
