@@ -9,7 +9,7 @@ Script for auto install on KVM + QEMU in Debian Bookworm
 
     chmod +x install_kvm_in_Bookworm.sh
 
-    ./install_kvm_in_Bookworm.sh
+    sudo ./install_kvm_in_Bookworm.sh
 
     sudo rm -r ~/Downloads/kvm
 
